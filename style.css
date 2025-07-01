@@ -266,4 +266,26 @@ color: #ffffff;
   width: 3rem;
      
 }
+
+
+  .secciones2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+
+    
+    margin-bottom: 2rem;
+    
+  }
+  .imgsecciones2{
+    
+      margin: 1.5rem;
+      margin-top: 3em;
+      height: 8rem;
+      border-radius: 1rem;
+      
+     
+  }
 }
