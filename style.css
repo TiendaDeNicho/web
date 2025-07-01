@@ -1,0 +1,223 @@
+html {
+  
+
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+}
+
+
+.ref{
+  
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+"wdth" 100; 
+color: rgba(0, 0, 0, 0.61);
+}
+.precio{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+"wdth" 100; 
+color: rgba(0, 0, 0, 0.61);
+}  
+
+
+.contenedor-camisetas {
+    
+    width: 100%;
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap ;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea cuadros responsivos */
+    gap: 60px;
+    
+
+    
+}
+.imgCuadro{
+    width:20rem;
+}
+
+.camiseta-cuadro {
+    
+    border: 3px solid #ccc;
+    border-radius: 6px;
+    
+    
+    
+    padding: 0rem;
+    margin: 0rem;
+    text-align: center;
+    position: relative; /* Necesario para posicionar los lados */
+}
+
+.camiseta-cuadro:hover {
+  border: 3px solid #7c4dff; /* Color de sombra al pasar el mouse */
+  box-shadow: 0 0 40px 0 rgba(124,77,255,0.3); /* Sombra suave opcional */
+  transition: border 1s, box-shadow 0.2s;
+}
+
+.lado-frontal{
+    width: 100;
+    height: auto;
+}
+
+
+.lado-trasero {
+    width: auto;
+    height: auto;
+}
+
+
+
+.oculto {
+    display: none;
+}
+
+.boton-cambiar {
+    margin-top: 10px;
+    padding: 8px 15px;
+    margin-right: 2rem;
+    cursor: pointer;
+
+    background: transparent;
+  border-color: transparent;
+  width: auto;
+
+}
+
+.estilo-boton-cambiar{
+  width: 3rem;
+     
+}
+
+
+.btnW{
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  
+  
+
+  .imgbtnW{
+    opacity: 0.5;
+    width: 1.8rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+
+
+
+.secciones{
+    
+   
+    position: sticky; top: 0px;
+    
+    width: 98%;
+    z-index: 100; /* o un valor mayor */
+    
+    background-color: rgb(41, 16, 99);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .sec{
+      
+      margin: 1%;
+      .secA{
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+
+  .secciones2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+
+    
+    margin-bottom: 4rem;
+    
+  }
+  .imgsecciones2{
+    
+      margin: 2.5rem;
+      margin-top: 7rem;
+      height: 15rem;
+      border-radius: 1rem;
+      
+     
+  }
+  
+  #logobr{
+  
+    height: 3.2rem;
+  
+  }
+
+  #fondoInicio{
+    
+    border-radius: 0.5rem;
+    width: 98%;
+    padding: 0 ;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2rem;
+  }
+
+html{
+
+  border: auto;
+  margin: auto;
+  padding: auto;
+}
+
+
+
+
+
+footer{
+   
+    background-color: rgb(208, 187, 255); /* Color de fondo opcional */
+color: #ffffff;
+    text-align: center; /* Centra el texto opcionalmente */
+    padding: 1rem; /* Espaciado interno opcional */
+    width: auto; /* Asegura que el footer ocupe todo el ancho */
+    margin-top: 1rem;
+}
+
+.imgCuadro{
+  cursor: pointer; /* Cambiar el cursor para indicar que es clickeable */
+  margin: 10px; /* Espacio entre las imágenes (opcional) */
+}
